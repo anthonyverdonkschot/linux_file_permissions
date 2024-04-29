@@ -4,6 +4,8 @@
 
 You are a security professional who works with the research team at a large organization. You’re responsible for ensuring that users on the research team are authorized with appropriate permissions. Your task is to evaluate current permissions on the file system and modify permissions based on authorization instructions.
 
+> The scenario of this project is fictitious.
+
 ## Check file and directory details
 
 To check file and directory permissions in Linux, use the `ls` command with the `-l` option. To also view hidden files, use the `-a` option.
