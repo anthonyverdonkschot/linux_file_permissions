@@ -6,6 +6,24 @@ You are a security professional who works with the research team at a large orga
 
 > The scenario of this project is fictitious.
 
+**Table of Contents**
+
+- [Linux File Permissions](#linux-file-permissions)
+   * [Project scenario](#project-scenario)
+   * [Check file and directory details](#check-file-and-directory-details)
+   * [Describe the permissions string](#describe-the-permissions-string)
+   * [Change file permissions](#change-file-permissions)
+   * [Change file permissions on a hidden file](#change-file-permissions-on-a-hidden-file)
+   * [Change directory permissions](#change-directory-permissions)
+   * [Summary](#summary)
+- [Extra: Recreating the lab file structure](#extra-recreating-the-lab-file-structure)
+   * [Overview of the file structure](#overview-of-the-file-structure)
+      + [Creating the group and user](#creating-the-group-and-user)
+      + [Creating the projects directory and its contents](#creating-the-projects-directory-and-its-contents)
+   * [Recreating the lab’s default file permissions](#recreating-the-labs-default-file-permissions)
+      + [Using chmod with the numeric method](#using-chmod-with-the-numeric-method)
+
+
 ## Check file and directory details
 
 To check file and directory permissions in Linux, use the `ls` command with the `-l` option. To also view hidden files, use the `-a` option.
